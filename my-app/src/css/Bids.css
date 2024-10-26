@@ -1,0 +1,25 @@
+.unique-bids-container ul {
+    list-style-type: none; /* li 요소의 동그라미를 없앰 */
+    padding: 0; /* 기본 패딩을 없앰 */
+}
+
+.unique-bids-container li {
+    margin: 10px 0; /* li 요소 간의 간격을 추가 */
+    background-color: #f1f1f1; /* li 요소의 배경색 */
+    padding: 15px; /* li 요소 내부의 여백 */
+    border-radius: 5px; /* li 요소의 모서리를 둥글게 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* li 요소에 약간의 그림자 효과 */
+    transition: background-color 0.3s; /* 배경색 전환 효과 */
+}
+
+.unique-bids-container a {
+    text-decoration: none; /* 링크의 밑줄을 없앰 */
+    color: rgb(0, 0, 0); /* 링크의 색상을 설정 */
+}
+
+.unique-bids-container a:hover {
+    color: blue; /* 링크에 마우스를 올렸을 때 색상을 변경 */
+}
+
+
+

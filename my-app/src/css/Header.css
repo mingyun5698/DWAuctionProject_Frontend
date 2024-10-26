@@ -1,0 +1,66 @@
+.header {
+  position: fixed; /* 화면에 고정 */
+  top: 0; /* 화면 상단에 위치 */
+  left: 0; /* 좌측 정렬 */
+  width: 100%; /* 화면 너비 전체를 차지 */
+  height: 10vh; /* 화면 높이의 10%로 설정 */
+  background-color: #f3c7c7; /* 연한 분홍색 배경색 */
+  color: white; /* 글자색 설정 */
+  display: flex; /* 내부 요소들을 정렬하기 위해 Flexbox 사용 */
+  align-items: center; /* 세로 중앙 정렬 */
+  padding: 0 20px; /* 좌우 여백 설정 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 설정 */
+  z-index: 1000; /* 다른 요소들보다 위에 표시되도록 설정 */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100%; /* 헤더 높이에 맞게 이미지 높이 설정 */
+  max-height: 60px; /* 이미지의 최대 높이 설정 */
+  width: 180px;
+}
+
+.nav-container {
+  flex: 1; /* 남은 공간을 차지하도록 설정 */
+  display: flex; /* Flexbox를 사용하여 자식 요소들을 배치 */
+  justify-content: space-between; /* 좌우로 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.nav-links {
+  display: flex; /* 링크들을 가로로 배치 */
+  gap: 15px; /* 링크 간의 간격 설정 */
+}
+
+.center-links {
+  flex: 1; /* 남은 공간을 차지하도록 설정 */
+  display: flex; /* Flexbox를 사용하여 자식 요소들을 배치 */
+  justify-content: center; /* 가운데 정렬 */
+}
+
+.center-links a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: white; /* 글자색 하얀색으로 설정 */
+  font-size: 24px; /* 글자 크기 설정 (필요에 따라 조정) */
+  cursor: pointer; /* 커서가 포인터로 변경되도록 설정 */
+}
+
+.center-links a:hover {
+  color: #ddd; /* 호버 시 글자색 밝은 회색으로 변경 */
+}
+
+.login-link, .logout-link {
+  text-decoration: none; /* 밑줄 제거 */
+  color: white; /* 글자색 하얀색으로 설정 */
+  font-size: 24px; /* 글자 크기 설정 */
+  cursor: pointer; /* 커서가 포인터로 변경되도록 설정 */
+}
+
+.login-link:hover, .logout-link:hover {
+  color: #ddd; /* 호버 시 글자색 밝은 회색으로 변경 */
+}
+

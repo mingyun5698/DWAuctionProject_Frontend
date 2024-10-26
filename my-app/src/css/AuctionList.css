@@ -1,0 +1,46 @@
+/* 전체 레이아웃을 Flexbox로 설정 */
+.layout {
+  display: flex;
+  gap: 20px; /* 사이드바와 콘텐츠 사이의 간격 */
+  padding: 20px; /* 전체 여백 설정 */
+}
+
+/* 사이드바 스타일링 */
+.sidebar {
+  width: 250px; /* 사이드바의 너비 */
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #f8f9fa; /* 배경 색상 */
+  flex-shrink: 0; /* 사이드바의 너비가 고정되도록 설정 */
+  height: 50vh;
+  margin-top: 165px; /* 상단에서 내려오게 설정 */
+}
+
+.sidebar-right {
+  width: 250px; /* 사이드바의 너비 */
+  padding: 20px;
+  flex-shrink: 0; /* 사이드바의 너비가 고정되도록 설정 */
+  height: 50vh;
+}
+
+/* 콘텐츠 영역 스타일링 */
+.content {
+  flex: 1; /* 콘텐츠 영역이 사이드바를 제외한 나머지 공간을 차지하도록 설정 */
+}
+
+/* 이미지 간격 조정 */
+.image-spacing {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; /* 이미지와 텍스트 사이의 간격 조정 */
+}
+
+/* body 스타일링 */
+body {
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  background-color: #f0f0f0; /* 배경 색상 */
+}
+
+
+  
